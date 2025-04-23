@@ -17,7 +17,7 @@ public class PlayerControllerX : MonoBehaviour
             DogFire();
             fireTime = Time.time + coolDown;  
         }
-        Debug.Log(fireTime);
+        
     }
 
     void DogFire()
