@@ -20,6 +20,7 @@ public class DestroyOutOfBound : MonoBehaviour
          if(moveDistance > range)
         {
             Destroy(gameObject);
+            Debug.Log("Game Over!");
         }
     }
 }

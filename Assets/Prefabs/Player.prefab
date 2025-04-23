@@ -459,6 +459,7 @@ GameObject:
   - component: {fileID: 9095967949535380032}
   - component: {fileID: 8741345263893548307}
   - component: {fileID: 1513732330777656426}
+  - component: {fileID: 5135876481641668793}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -521,6 +522,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilprefab: {fileID: 4591474954144156938, guid: 269b33be3b3784444a3ef3d8249ad75a, type: 3}
+--- !u!65 &5135876481641668793
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2244997709949893007}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.06464, y: 3.8263512, z: 1}
+  m_Center: {x: 0, y: 1.69, z: 0}
 --- !u!1 &2834428250710733838
 GameObject:
   m_ObjectHideFlags: 0
